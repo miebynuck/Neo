@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Gacha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button onclick="showTab('tab1')">Gacha</button>
+        <button onclick="showTab('tab2')">Inventario</button>
+        <button onclick="showTab('tab3')">Your Pets</button>
+        <button onclick="showTab('tab4')">Generador item</button>
+        <button onclick="showTab('tab5')">Gestión de Libros</button>
+        <button onclick="showTab('tab6')">Genshin</button>
+        </nav>
+
+    <!-- Botón para borrar datos -->
+        <div id="reset-area">
+            <button id="reset-data">Borrar Todos los Datos</button>
+        </div>
+    </div>
+
+    <!-- Tab 1: Gacha -->
+    <div id="tab1" class="tab">
+        <h1>Gacha de Mascotas</h1>
+        <div id="pet-area">
+            <h2>Mascota Actual</h2>
+            <img id="current-pet" src="assets/no-pet.png" alt="No pet" width="200">
+            <p id="current-pet-name"></p>
+        </div>
+        <div id="coins-area">
+            <p>Monedas: <span id="coins">100</span></p>
+            <button id="pull-gacha">Tirar en el Gacha (10 Monedas)</button>
+        </div>
+    </div>
+
+
+   <!-- Tab 2: Inventario -->
+    <div id="tab2" class="tab" style="display: none;">
+        <h2>Inventario de Items</h2>
+        <ul id="inventory-list"></ul>
+    </div>
+
+    <!-- Tab 3: Mascotas -->
+    <div id="tab3" class="tab" style="display: none;">
+        <h2>Mascotas Obtenidas</h2>
+        <div id="pets-list"></div>
+    </div>
+
+    <!-- Tab 4: Generador de Números Aleatorios -->
+<div id="tab4" class="tab" style="display: none;">
+    <h2>Generador de Números Aleatorios</h2>
+
+    <div class="random-word-container">
+        <button id="generate-word">Tirar</button>
+        <p>Palabra: <span id="random-word">-</span></p> <!-- Mostrará la palabra generada -->
+    </div>
+
+    <div class="random-number-container">
+        <button id="generate-number-67235">Numero de Item (1-67235)</button>
+        <p>Item: <span id="random-number-67235">-</span></p>
+    </div>
+
+    <div class="random-number-container">
+        <button id="generate-number-78">Numero de Pet (1-78)</button>
+        <p>Item: <span id="random-number-78">-</span></p>
+    </div>
+</div>
+
+    <!-- Nueva Tab 5: Gestión de Libros -->
+<div id="tab5" class="tab" style="display: none;">
+    <h2>Gestión de Libros</h2>
+    <div>
+        <label for="book-search">Buscar personas sin un libro:</label>
+        <input type="text" id="book-search" placeholder="Ingresa el nombre del libro">
+        <button onclick="searchBook()">Buscar</button>
+    </div>
+    <div>
+        <label for="sort-options">Ordenar por:</label>
+        <select id="sort-options" onchange="sortPeople()">
+            <option value="default">Por defecto</option>
+            <option value="books">Número de libros leídos</option>
+        </select>
+    </div>
+    <div id="search-results">
+        <h3>Resultados</h3>
+        <ul id="results-list"></ul>
+    </div>
+    <div>
+        <h3>Lista de Personas</h3>
+        <ul id="people-list"></ul>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+    <script>
+        function showTab(tab) {
+            document.getElementById('tab1').style.display = 'none';
+            document.getElementById('tab2').style.display = 'none';
+            document.getElementById('tab3').style.display = 'none';
+            document.getElementById('tab4').style.display = 'none';
+            document.getElementById('tab5').style.display = 'none';
+            document.getElementById(tab).style.display = 'block';
+        }
+    </script>
+    <script src="script.js"></script> <!-- Archivo general -->
+    <script src="books.js"></script> <!-- Archivo para la pestaña de libros --> 
+</body>
+</html>
