@@ -73,14 +73,14 @@ const people = [
     },
     { 
         name: "Boyale", 
-        img: "assets/petbooks/Boyale.png", 
+        img: "assets/petbooks/BoyaleH.png", 
         account: "Codoco", 
         books: ["Tale of Lag", "Speak Tyrannian", "Mystery Of The Kougra Paw", "The Secret of Treasure Island", "Dark Eyes the Aisha", "Plushie Adventures", "The Hidden Temple", "Island Cybunny Guide",
                "Defenders Stand for Justice", "Flight of the Fire Faerie", "Babaas Baba", "Bruce Blues"] 
     },
     { 
         name: "Nivesta", 
-        img: "assets/petbooks/Nivesta.png", 
+        img: "assets/petbooks/NivestaH.png", 
         account: "Codoco", 
         books: ["Speak Tyrannian", "Mynci Horror", "Mazzew Grooming", "Mystery Of The Kougra Paw", "Wings of Steel", "My Life As A Sponge", "The Secret of Treasure Island", "Snot My Fault", "Dark Eyes the Aisha",
                "Plushie Adventures", "Glurp", "The Hidden Temple", "Defenders Stand for Justice", "Webs of Death", "The History of the Origami Warf", "Fun Tree Facts", "Secrets of the Chocofactory",
@@ -88,7 +88,7 @@ const people = [
     },
     { 
         name: "Lojza", 
-        img: "assets/petbooks/Lojza.png", 
+        img: "assets/petbooks/LojzaH.png", 
         account: "Codoco", 
         books: ["Victory Is Ours", "Speak Tyrannian", "Snot My Fault", "The Gorgeous Gallion", "Bruce Blues" ] 
     },
