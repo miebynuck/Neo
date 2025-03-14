@@ -1,5 +1,16 @@
 // Datos iniciales
 const people = [
+
+//Miebynuck@gmail.com
+    //Main - sholy_teamo_aliar
+    { 
+        name: "Neido", 
+        img: "assets/petbooks/Neido.png", 
+        account: "sholy_teamo_aliar", 
+        books: ["The Secret of Treasure Island"] 
+    },
+
+    
     { 
         name: "Pogoel", 
         img: "assets/petbooks/Pogoel.png", 
