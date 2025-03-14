@@ -17,8 +17,6 @@ const people = [
                "Underwater Tour", "Zombie Handbook", "A History of the Lost Desert", "Slorg Care", "Shenkuu Lunar Festival Commemorative Guide", "Realm of the Water Faeries",
                 "Book of Strange and Incurable Diseases", "Maraquan Bed Time Stories", "Nimmo - Now and Zen" ] 
     },
-
-
     { 
         name: "Pogoel", 
         img: "assets/petbooks/Pogoel.png", 
@@ -35,6 +33,8 @@ const people = [
                "Cooling the Fires", "We Like it Hot", "Faerie Activities Book", "Realm of the Water Faeries", "The Blue Tiki Sands of Time", "Deserted Desert Scroll", "Hurt Orange Kiko Book", "A Guide to Find the Right Cure",
                "Breathe", "Maraquan Faerie Tales", "Birthday Best", "Tree Climbing for Beginners", "Moon Dust Scroll"] 
     },
+
+    //Other
     { 
         name: "spieria", 
         img: "assets/petbooks/Spieria.png", 
