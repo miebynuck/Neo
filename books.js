@@ -7,7 +7,7 @@ const people = [
         name: "Neido", 
         img: "assets/petbooks/Neido.png", 
         account: "sholy_teamo_aliar", 
-        books: ["The Secret of Treasure Island"] 
+        books: ["The Secret of Treasure Island", "Zombie Handbook", "Maraquan Bed Time Stories", "Legends of Maraqua"] 
     },
     { 
         name: "Sthie", 
