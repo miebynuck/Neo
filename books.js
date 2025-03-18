@@ -7,7 +7,8 @@ const people = [
         name: "Neido", 
         img: "assets/petbooks/Neido.png", 
         account: "sholy_teamo_aliar", 
-        books: ["The Secret of Treasure Island", "Zombie Handbook", "Maraquan Bed Time Stories", "Legends of Maraqua"] 
+        books: ["The Secret of Treasure Island", "Zombie Handbook", "Maraquan Bed Time Stories", "Legends of Maraqua", "Neovian Darkfall", "Neocola Book",
+               "Light Speed Made Easy", "Maraquan Faerie Tales"] 
     },
     { 
         name: "Sthie", 
