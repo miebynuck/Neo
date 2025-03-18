@@ -8,7 +8,8 @@ const people = [
         img: "assets/petbooks/Neido.png", 
         account: "sholy_teamo_aliar", 
         books: ["The Secret of Treasure Island", "Zombie Handbook", "Maraquan Bed Time Stories", "Legends of Maraqua", "Neovian Darkfall", "Neocola Book",
-               "Light Speed Made Easy", "Maraquan Faerie Tales"] 
+               "Light Speed Made Easy", "Maraquan Faerie Tales", "Realm of the Water Faeries", "Skeith Inspired Treasure Maps", "Lenny Crosswords",
+               "Adventures In Space", "Mystery Of The Kougra Paw", "Collecting Moon Rock"] 
     },
     { 
         name: "Sthie", 
