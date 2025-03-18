@@ -9,7 +9,7 @@ const people = [
         account: "sholy_teamo_aliar", 
         books: ["The Secret of Treasure Island", "Zombie Handbook", "Maraquan Bed Time Stories", "Legends of Maraqua", "Neovian Darkfall", "Neocola Book",
                "Light Speed Made Easy", "Maraquan Faerie Tales", "Realm of the Water Faeries", "Skeith Inspired Treasure Maps", "Lenny Crosswords",
-               "Adventures In Space", "Mystery Of The Kougra Paw", "Collecting Moon Rock"] 
+               "Adventures In Space", "Mystery Of The Kougra Paw", "Collecting Moon Rock", "A Bori Alphabet", "Ogrin Survivor", "Spooky Skeith Adventures"] 
     },
     { 
         name: "Sthie", 
