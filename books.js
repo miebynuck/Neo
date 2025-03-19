@@ -36,6 +36,24 @@ const people = [
                "Breathe", "Maraquan Faerie Tales", "Birthday Best", "Tree Climbing for Beginners", "Moon Dust Scroll"] 
     },
 
+    
+     //Side - pets_pets_ya
+    { 
+        name: "Nonout", 
+        img: "assets/petbooks/Nonout.png", 
+        account: "pets_pets_ya", 
+        books: ["Encyclopedia Neopia", "Mr X", "Kiko Pop-Up Book", "Speak Tyrannian", "Learning To Sing Notes", "Mynci Horror", "Mazzew Grooming",
+                "Yurble Tales", "Yurble Adventures", "A Kau Summer", "Faellie Handbook", "Peopatras Petpets", "Wings of Steel", "My Life As A Sponge", "An Acara Named Whirr", "The Secret of Treasure Island",
+                "Mummified Ruki History", "Dark Eyes the Aisha", "Plushie Adventures", "Glurp", "The Hidden Temple",
+                "Maraqua Colouring Book", "Xweetok Ice Breakers", "All About Juggling", "Defenders Stand for Justice", "Mesmerizing Kikos", "Gallion Colouring Book",
+                "Webs of Death", "The Plushie Coffee Table Book", "Bobbleheads and Neopian Cultures", "Book of Origami Paper", "The History of the Origami Warf",
+                "Fun Tree Facts", "Secrets of the Chocofactory", "Altador Cup Through the Ages", "Arr Through Yarr - A Pirates Dictionary", "Halloween Safety Procedures",
+                "Babaas Baba", "Clash of Moehogs", "Bruce Blues", "The Geraptiku Recipe Book", "Altador Cup Holiday Decorating Tips", "Guide to Holiday Tackling",
+                "Wanna Play a Game?", "Sun Pop-Up Book", "Moon Pop-Up Book"]
+    },
+
+    
+
     //Other
     { 
         name: "spieria", 
