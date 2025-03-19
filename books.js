@@ -22,7 +22,7 @@ const people = [
     { 
         name: "Pogoel", 
         img: "assets/petbooks/Pogoel.png", 
-        account: "Kougritaa", 
+        account: "sholy_teamo_aliar", 
         books: ["Wishing On A Star", "The Great Betrayal", "Tale of Lag", "Inside the Mind of a Lupe", "Tome of Selket", "The Big Blue Blumaroo Book", "The Cowardly Tuskaninny", "Kiko Care", 
                "Brainy Blumaroos", "Korbat Halloween", "Mystery Of Halloween", "Neopian Times Issue 3", "Cybunny Diary", "Classic Moehog Tales", "Kiko Pop-Up Book", "Dress For Success", "Turmac Snacks",
                "Day In The Life Of King Roo", "Babaa Care",  "The Luckiest Babaa", "My First Babaa", "Gruslen Pop-Up Book", "Legends of Maraqua", "Maraquan Bed Time Stories", "Mystery Of The Kougra Paw",
